@@ -1,0 +1,23 @@
+// Variable Overrides
+
+// Bootstrap Sass Imports
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.jumbotron {
+    background: url(../media/pirate-ship.jpg) no-repeat center;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Poor Story', cursive;
+    color: white;
+}
+
+.lead {
+    color: white;
+}
+
+.profile {
+    height: 300px;
+    width: 220px;
+}
