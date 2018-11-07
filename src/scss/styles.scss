@@ -2,55 +2,61 @@
 
 // Bootstrap Sass Imports
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import "_nav.scss";
+@import "_jumbotron.scss";
+@import "_left.scss";
+@import "_story.scss";
 
-.nav-link:hover {
-    text-decoration: underline;
+// .nav-link:hover {
+//     text-decoration: underline;
     
-}
+// }
 
-.jumbotron {
-    background: url(../media/pirate-ship.jpg) no-repeat center;
-    background-size: cover;
-}
+// .jumbotron {
+//     background: url(../media/pirate-ship.jpg) no-repeat center;
+//     background-size: cover;
+// }
 
-h1 {
-    font-family: 'Poor Story', cursive;
-}
+// h1 {
+//     font-family: 'Poor Story', cursive;
+// }
 
-.jumbotext {
-    color: white;
-    margin-top: 100px;
-}
+// .jumbotext {
+//     color: white;
+//     margin-top: 100px;
+// }
 
-.lead {
-    color: white;
-    margin-bottom: 20px;
+// .lead {
+//     color: white;
+//     margin-bottom: 20px;
 
-}
+// }
 
-.profile {
-    margin-bottom: 20px;
-}
+// .byline {
+//     font-family: 'Times New Roman', Times, serif;
+// }
 
-.byline {
-    font-family: 'Times New Roman', Times, serif;
-}
+// .right-rail {
+//     border-left: thin solid lightgrey ;
+//   }
 
-.right-rail {
-    border-left: thin solid lightgray;
-  }
+// .carousel {
+//     max-width: 65%;
+//     margin-bottom: 10px;
+// }
 
-.img-fluid {
-    max-width: 100%;
-}
+// .img-fluid {
+//     max-width: 100%;
+//     margin-bottom: 20px;
+// }
 
-.footer {
-    background: lightgray;
-    margin-top: 20px;
-}
+// .footer {
+//     background: lightgray;
+//     margin-top: 20px;
+// }
 
-.storyart {
-    height: 264px;
-    width: 500px;
-    margin-bottom: 20px;
-}
+// .storyart {
+//     height: 264px;
+//     width: 500px;
+//     margin-bottom: 20px;
+// }

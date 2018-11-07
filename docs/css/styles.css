@@ -6315,6 +6315,12 @@ a.text-dark:hover, a.text-dark:focus {
 .nav-link:hover {
   text-decoration: underline; }
 
+.pull-right {
+  float: right; }
+
+li.active {
+  font-weight: bold; }
+
 .jumbotron {
   background: url(../media/pirate-ship.jpg) no-repeat center;
   background-size: cover; }
@@ -6324,23 +6330,25 @@ h1 {
 
 .jumbotext {
   color: white;
-  margin-top: 100px; }
-
-.lead {
-  color: white;
-  margin-bottom: 20px; }
-
-.profile {
-  margin-bottom: 20px; }
+  margin: 100px auto 20px auto;
+  text-align: center; }
 
 .byline {
-  font-family: 'Times New Roman', Times, serif; }
-
-.right-rail {
-  border-left: thin solid lightgray; }
+  font-family: 'Playfair Display', Times, serif; }
 
 .img-fluid {
-  max-width: 100%; }
+  max-width: 100%;
+  margin-bottom: 20px; }
+
+.like {
+  color: lightgray; }
+
+.right-rail {
+  border-left: thin solid lightgrey; }
+
+.carousel {
+  max-width: 70%;
+  margin-bottom: 10px; }
 
 .footer {
   background: lightgray;
@@ -6350,3 +6358,6 @@ h1 {
   height: 264px;
   width: 500px;
   margin-bottom: 20px; }
+
+.btn {
+  font-family: 'Poor Story', cursive; }

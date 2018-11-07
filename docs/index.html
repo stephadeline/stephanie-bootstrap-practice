@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Poor+Story" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
   </head>
 
   <body>
   
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Pirate Cove</a>
+      <a class="navbar-brand" href="index.html">Pirate Cove</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -22,24 +23,26 @@
             <a class="nav-link" href="#">Oct. 18</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="story.html">Oct.19</a>
+            <a class="nav-link" href="oct19.html">Oct.19</a>
           </li>
         </ul>
       </nav>
 
   <div class="jumbotron jumbotron-fluid">
-        <h1 class="display-4 jumbotext" align="center">The Ship's Log</h1>
-        <p class="lead" align="center">A diary by Capt. Cool Pirate</p>
-      </div>
+        <div class="jumbotext">  
+              <h1 class="display-4">The Ship's Log</h1>
+        <p class="lead">A diary by Capt. Cool Pirate</p>
+        </div>    
+  </div>
       
   <div class="container">
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-3">
       <img class="img-fluid profile" src="media/pirate.jpg"/>
       <div class="byline"><h5>By Cool Pirate</h5>
         <p><em>Island Breeze Tribune</em></p></div>
     </div>
-    <div class="col-md-8 right-rail">
+    <div class="col-md-9 right-rail">
     <h1 class="webhead">It was a dark and stormy night</h1>
     <h5>Captain's log, Oct. 18, 2018</h5>
     <p>Admiral of the Black bring a spring upon her cable doubloon gangplank cable wench grog blossom Jolly Roger ahoy prow. Belaying pin blow the man down Yellow Jack prow skysail man-of-war crack Jennys tea cup bilge rat gally six pounders. Overhaul scallywag man-of-war yawl fathom lugger league tender marooned Sail ho.</p>
@@ -53,7 +56,10 @@
     <p>Cat o'nine tails sheet gabion nipperkin hulk jib jack run a rig heave down Privateer. Crack Jennys tea cup rope's end American Main Corsair lee spike doubloon Pirate Round bilge water Sea Legs. Hearties swing the lead execution dock grog holystone clipper keel Admiral of the Black take a caulk Jolly Roger.</p>
 
     <p>Fire in the hole bowsprit tack line Davy Jones' Locker bounty boatswain cog quarterdeck parrel. Six pounders chantey cutlass ahoy stern Barbary Coast gabion keelhaul draft tender. Aye tender ballast stern hogshead execution dock Sea Legs Buccaneer Barbary Coast yardarm.</p>
-   </div>
+    <button type="button" class="btn btn-default" onclick="likeThis(this, 'grey')">
+            <ion-icon name="heart" aria-hidden="true"></ion-icon>  I like this article
+    </button>
+  </div>
   </div>
     </div>
   
@@ -62,5 +68,11 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ionicons@4.4.6/dist/ionicons.js"></script>
+    <script>
+        function likeThis(elmnt,clr) {
+            elmnt.style.color = clr;
+        }
+    </script>
   </body>
 </html>

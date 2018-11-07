@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
   <head>
-    <title>Bootstrap 4 Layout</title>
+    <title>The Ship's Log</title>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Poor+Story" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
   </head>
 
   <body>
@@ -27,10 +28,12 @@
         </ul>
       </nav>
 
-  <div class="jumbotron jumbotron-fluid">
-        <h1 class="display-4 jumbotext" align="center">The Ship's Log</h1>
-        <p class="lead" align="center">A diary by Capt. Cool Pirate</p>
-  </div>
+    <div class="jumbotron jumbotron-fluid">
+          <div class="jumbotext">  
+                <h1 class="display-4">The Ship's Log</h1>
+          <p class="lead">A diary by Capt. Cool Pirate</p>
+          </div>    
+    </div>
       
   <div class="container">
   <div class="row">
@@ -74,7 +77,10 @@
     <p>Cat o'nine tails sheet gabion nipperkin hulk jib jack run a rig heave down Privateer. Crack Jennys tea cup rope's end American Main Corsair lee spike doubloon Pirate Round bilge water Sea Legs. Hearties swing the lead execution dock grog holystone clipper keel Admiral of the Black take a caulk Jolly Roger.</p>
 
     <p>Fire in the hole bowsprit tack line Davy Jones' Locker bounty boatswain cog quarterdeck parrel. Six pounders chantey cutlass ahoy stern Barbary Coast gabion keelhaul draft tender. Aye tender ballast stern hogshead execution dock Sea Legs Buccaneer Barbary Coast yardarm.</p>
-   </div>
+    <button type="button" class="btn btn-default" onclick="likeThis(this, 'grey')">
+        <ion-icon name="heart" aria-hidden="true"></ion-icon>  I like this article
+    </button>
+  </div>
   </div>
     </div>
   
@@ -83,5 +89,12 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ionicons@4.4.6/dist/ionicons.js"></script>
+    <script>
+        function likeThis(elmnt,clr) {
+            elmnt.style.color = clr;
+        }
+        </script>
+
   </body>
 </html>
